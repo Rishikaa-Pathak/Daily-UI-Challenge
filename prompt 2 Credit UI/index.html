@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  
+
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="card-header">
+          <h2>Enter Your Credit Card <br />Information</h2>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form1">
+              <label for="cardNumber">Card Number</label><br />
+              <input
+                type="text"
+                id="cardNumber"
+                name="cardNumber"
+                placeholder="1234 5678 9123 4567"
+              />
+            </div>
+            <div class="form1">
+              <label for="cardName">Cardholder Name</label><br />
+              <input
+                type="text"
+                id="cardName"
+                name="cardName"
+                placeholder="Rishika"
+              />
+            </div>
+            <div class="form-inline">
+              <div class="form1">
+                <label for="expiryDate">Expiry Date</label>
+                <input
+                  type="text"
+                  id="expiryDate"
+                  name="expiryDate"
+                  placeholder="MM/YY"
+                />
+              </div>
+              <div class="form1">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" />
+              </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

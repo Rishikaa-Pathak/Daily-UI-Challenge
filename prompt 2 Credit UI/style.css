@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #e0f7fa;
+    }
+    
+    .main{
+        height: 100%;
+        width: 100%;
+        background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .card{
+        height: 70%;
+        width: 30%;
+        border: 3px solid #00796b;
+        border-radius: 12px;
+        background-color: white;
+         font-size: 29px; 
+    }
+    .card-header{
+        /* margin-bottom: 25%; */
+        text-align: center;
+        font-family: sans-serif;
+    
+    }
+    .card-header >h2{
+        font-size: 30px;
+        padding: 20px 20px;
+    }
+    
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    
+    }
+    .form1{
+        margin-bottom: 30px;
+    
+    
+    }
+    .form-inline {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 15px;
+    }
+    .form-inline .form1 {
+        flex: 3;
+    
+    }
+    
+    .form1 label{
+    
+        font-weight: bold;
+        color: #004d40; 
+    }
+    
+    .form1 input{
+         width: 100%;
+        padding: 3px; 
+        border: 1px solid #32605c;
+        border-radius: 6px;
+        font-size: 19px;
+    
+    }
+    
+    .btn{
+        width: 100%;
+        padding: 5px;
+        background-color:#00796b;
+        color: white;
+       border: none;
+        border-radius: 6px ;
+        font-size: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn:hover{
+        background-color: #004d40;;
+    }
