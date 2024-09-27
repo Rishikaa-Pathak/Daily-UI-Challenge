@@ -74,6 +74,7 @@ nav .middle {
     font-size: 15px;
     font-family: sans-serif;
     margin-left: 60px;
+    transition: color .5s ease;
     
 }
 .middle a:hover{
