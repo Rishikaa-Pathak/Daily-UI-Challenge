@@ -76,6 +76,9 @@ nav .middle {
     margin-left: 60px;
     
 }
+.middle a:hover{
+    color: pink;
+}
 
 .right>button {
     padding: 10px 25px;
